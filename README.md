@@ -1,7 +1,7 @@
 # laravel-gmail-mail-driver
 This package is used to provide gmail email service provider for the email driver in laravel.
 
-### this is simple wrapper so you need to manage authentication and app approval process on your end and also need to manage refreshing the access token process on your end as well. 
+### This is simple wrapper so you need to manage authentication and app approval process on your end and also need to manage refreshing the access token process on your end as well. 
 
 ## Add new `mailers` driver in `config/mail.php` as below
 
