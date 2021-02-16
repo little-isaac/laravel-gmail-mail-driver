@@ -2,6 +2,7 @@
     "name": "milind/laravel-gmail-mail-driver",
     "description": "This package is used to provide gmail mail driver for the laravel",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Milind Patel",
