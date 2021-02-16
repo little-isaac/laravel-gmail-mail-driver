@@ -1,0 +1,26 @@
+{
+    "name": "milind/laravel-gmail-mail-driver",
+    "description": "This package is used to provide gmail mail driver for the laravel",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Milind Patel",
+            "email": "ma353353@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GmailMailService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GmailMailService\\ServiceProviders\\GmailMailServiceProvider"
+            ]
+        }
+    }
+}
